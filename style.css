@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 header, footer {
@@ -26,22 +27,35 @@ li {
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
     color: #f9faf8;
 }
 
 button {
     background-color: #3882f6;
     color:#f9faf8;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
 }
 
-.CTA {
-    background-color: #3882f6;
+.hero-image {
+    width: 500px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+
+figure img {
+    width: 80px;
+}
+
+figcaption {
+    color: #1f2937;
+    font-size: 14px;
 }
 
 .quote {
@@ -53,4 +67,39 @@ h2 {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.CTA {
+    background-color: #3882f6;
+}
+
+.CTA button {
+    color: #f9faf8;
+    border-style: solid;
+    border-color: #f9faf8;
+}
+
+footer {
+    color: #f9faf8;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color:#f9faf8;
+}
+
+.main {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.descriptive {
+    color: #f9faf8;
+    font-size: 14px;
 }
