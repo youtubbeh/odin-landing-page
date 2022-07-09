@@ -20,6 +20,7 @@ header {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
+    margin-bottom: 150px;
 }
 
 .navigation {
@@ -98,25 +99,38 @@ button {
 
 .features {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin: 2em auto;
 }
 
-figure img {
+.feat {
+    display: flex;
+    flex-direction: column;
+}
+
+.feat img {
     width: 80px;
+    margin: 0 auto;
 }
 
-figcaption {
+.feat p {
     color: #1f2937;
     font-size: 14px;
+    text-align: center;
+    max-width: 150px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    padding: 50px 250px;
 }
 
 .nice-words {
@@ -124,10 +138,12 @@ figcaption {
     font-weight: 300;
     font-style: italic;
     color: #1f2937;
+    margin-bottom: 0px;
 }
 
 .author {
     font-weight: bold;
+    text-align: right;
 }
 
 .CTA {
