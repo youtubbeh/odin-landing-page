@@ -4,6 +4,11 @@ body {
     flex-direction: column;
 }
 
+body > * {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 body > header, section, footer {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -17,13 +22,31 @@ header {
     flex-direction: column;
 }
 
-.navigation, .hero {
+.navigation {
     display: flex;
+    height: 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 450px;
+    flex-wrap: wrap;
+}
+
+.hero-text, .hero-image {
+    flex: 1 1 auto;
+    max-width: 400px;
+    margin: 20px 0px;
 }
 
 .logo, .header-links {
     display: flex;
     margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 ul {
@@ -34,11 +57,15 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 1em;
 }
 
 .bajada {
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 30px;
 }
 
 li {
@@ -62,10 +89,6 @@ button {
     border-radius: 5px;
     width: 120px;
     height: 30px;
-}
-
-.hero-image {
-    width: 500px;
 }
 
 .info {
