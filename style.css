@@ -149,19 +149,32 @@ h2 {
 .CTA {
     background-color: #3882f6;
     display: flex;
+    padding: 20px 50px;
+    margin: 70px 200px;
+    align-items: center;
+}
+
+.cta-text {
+    flex: 3 0 auto;
+}
+
+.cta-text p {
+    margin: 8px 0px ;
 }
 
 .CTA button {
     color: #f9faf8;
     border-style: solid;
     border-color: #f9faf8;
+    flex: 0 0 auto;
 }
 
 footer {
     color: #f9faf8;
     font-size: 14px;
     background-color: #1f2937;
-    display: flex;
+    padding: 40px 200px;
+    text-align: center;
 }
 
 a {
