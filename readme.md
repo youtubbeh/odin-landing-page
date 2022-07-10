@@ -22,7 +22,7 @@ Make the following landing page using HTML5, CSS3, and flexbox. No links necessa
 ### Links
 
 - [Github repo to review code](https://github.com/youtubbeh/odin-landing-page)
-- [Live site](https://fmentor-order-summary-youtubbeh.netlify.app/)
+- [Live site](https://regal-liger-7ab74f.netlify.app/)
 
 ## My process
 
